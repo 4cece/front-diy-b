@@ -1,0 +1,52 @@
+
+// colors
+
+$blue:    #53599A !default;
+$green: #E5F9E0 !default;
+$red:     #0B6E4F !default;
+$cyan: #A3F7B5 !default;
+
+$primary:       $blue !default;
+$info:          $cyan !default;
+$danger:        $red !default;
+$dark:          $red !default;
+$success:       $green !default;
+
+// Navbar
+
+.nav-link{
+    color: $success !important;
+}
+
+nav a {
+    color: $success!important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// typo
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+//Acceuil
+
+.image{
+    width: 100%;
+    height: 250px;
+}
+
+.rimage{
+    top: 0;
+    height: 90%;
+    z-index: 1;
+    width: 51%;
+    bottom: 0;
+}
+
+.recette{
+    height: 100%;
+    width: 60%;
+    z-index: 0;
+}
